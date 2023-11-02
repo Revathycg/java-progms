@@ -19,7 +19,7 @@ public class Collection {
 		veg.add("beans");
 		veg.add("beetroot")	;
 		Fruits.addAll(veg);
-		System.out.println(Fruits);
+		System.out.println(Fruits);//change occurs
 		System.out.println(Fruits.get(2));
 		System.out.println(Fruits.set(5,"beetroot"));
 		System.out.println(Fruits);
