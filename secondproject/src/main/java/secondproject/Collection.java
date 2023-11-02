@@ -17,6 +17,7 @@ public class Collection {
 		veg.add("cabbage");
 		veg.add("tomato");
 		veg.add("beans");
+		veg.add("beetroot")	;
 		Fruits.addAll(veg);
 		System.out.println(Fruits);
 		System.out.println(Fruits.get(2));
