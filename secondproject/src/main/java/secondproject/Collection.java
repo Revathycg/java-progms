@@ -14,12 +14,14 @@ public class Collection {
 		System.out.println(Fruits);
 		ArrayList<String> veg=new ArrayList();
 		veg.add("carrot");
+		veg.add("carrot");
 		veg.add("cabbage");
 		veg.add("tomato");
 		veg.add("beans");
 		veg.add("beetroot")	;
 		Fruits.addAll(veg);
 		System.out.println(Fruits);//change occurs
+		System.out.println(Fruits.contains("beans"));
 		System.out.println(Fruits.get(2));
 		System.out.println(Fruits.set(5,"beetroot"));
 		System.out.println(Fruits);
@@ -35,6 +37,7 @@ public class Collection {
 		while(itr.hasNext()){
 			System.out.println(itr.next());
 			System.out.println(itr.hasNext());
+			
 		}
 		}
 		
